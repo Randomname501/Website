@@ -28,6 +28,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -368,9 +373,8 @@
   </footer>
 
   <script src="script.js"></script>
-  <!-- Vercel Analytics + Speed Insights. Both need to be enabled in the
-       Vercel dashboard for this project; they 404 harmlessly in local dev. -->
-  <script defer src="/_vercel/insights/script.js"></script>
+  <!-- Vercel Speed Insights. Needs to be enabled in the
+       Vercel dashboard for this project; it 404s harmlessly in local dev. -->
   <script defer src="/_vercel/speed-insights/script.js"></script>
 </body>
 </html>
