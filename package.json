@@ -4,5 +4,8 @@
   "scripts": {
     "dev": "npx live-server --port=3000 --open=index.html",
     "start": "npx live-server --port=3000 --open=index.html"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
   }
 }
